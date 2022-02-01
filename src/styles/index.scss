@@ -1,13 +1,43 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+#app {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    align-items: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+    width: fit-content;
+    background-color: #BFA380;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 3px 3px 2px 3px rgba(0, 0, 0, 0.2);
 
-*/
+};
+
+
+.traffic_light {
+    box-shadow: 2px 1px 1px 2px #888888;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;    
+    background-color: #3C4E73;
+    margin: 4px;
+
+    
+}
+
+.red {
+    background-color: #F23D3D;
+}
+
+.yellow {
+    background-color:  #F27405;
+}
+
+.green {
+    background-color: #03A678;
+}
